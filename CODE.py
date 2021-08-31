@@ -17,7 +17,7 @@ while w<=num :
     if fruit.lower() in Fruits and fruit.lower() not in user :
         user.append(fruit.lower())
     if fruit.lower() not in Fruits :
-        print ("The ", fruit , " is either Not a Fruit or you have misspelt it .")
+        print ("The ", "'" , fruit , "'" , " is either Not a Fruit or you have misspelt it .")
     
 
     w = w + 1
